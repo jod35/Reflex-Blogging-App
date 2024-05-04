@@ -7,8 +7,9 @@ def create_post_page() -> rx.Component:
     return rx.box(
         navbar(),
         rx.box(
-            rx.heading("Create Post"),
+            
             rx.form(
+                rx.heading("Create Post"),
                 rx.box(
                     rx.text("Title", class_name="form-label"),
                     rx.input(

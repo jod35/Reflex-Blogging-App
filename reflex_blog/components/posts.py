@@ -9,11 +9,11 @@ def render_post(post:dict):
                     href=f"/post/{post['uid']}",
                     on_click=PostState.select_post(post)
             ),
-            rx.text(f"By: {post['author']}"),
+            rx.text(f"By: {post['author']}",class_name="post_author"),
             class_name="post_header",
         ),
         rx.box(
-            rx.text(post["created_at"], class_name="post_date"),
+            rx.text(f"On date: {post['created_at']}", class_name="post_date"),
             rx.text(post["body"]),
             class_name="post_body",
         ),

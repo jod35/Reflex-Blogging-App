@@ -22,3 +22,47 @@
     width: 80%;
     margin: 0 auto;
 }
+.post{
+    margin: 20px 0;
+    border: 1px solid lightgray;
+    padding: 20px 10px;
+    border-radius: 5px;
+    width: 80%;
+}
+.post_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post_date{
+    font-weight: bold;
+    font-size: 1em;
+    margin: 15px 0;
+}
+.post_author{
+    font-weight: bold;
+}
+.post_detail_header{
+    margin: 40px 0;
+}
+.main form{
+    width: 80%;
+    margin: 20px auto;
+}
+.main h1{
+    margin:20px 0;
+}
+.form-group{
+    margin: 20px 0;
+}
+
+
+@media(max-width:768px){
+    .post{
+        margin: 20px 0;
+        border: 1px solid lightgray;
+        padding: 20px 10px;
+        border-radius: 5px;
+        width: 100%;
+    }
+}

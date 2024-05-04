@@ -20,7 +20,7 @@ def post_detail_page() -> rx.Component:
                 class_name="post_detail_body"
             ), 
             update_post_modal(),
-            class_name="main"
+            class_name="main"   
         ),
 
         

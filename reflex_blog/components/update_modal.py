@@ -29,7 +29,7 @@ def update_post_modal() -> rx.Component:
                 rx.text_area(
                     name="body",
                     placeholder="Enter The Post Body",
-                    
+                    on_change=PostState.set_body,
                     value=PostState.post["body"],
                 ),
             ),
