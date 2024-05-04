@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em 2em;
+}
+
+.nav-left p{
+    font-weight: bold;
+}
+
+.nav-right a{
+    margin-left: 20px;
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
